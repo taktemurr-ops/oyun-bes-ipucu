@@ -1,0 +1,24 @@
+name: oyun_bes_ipucu
+description: "Beş İpucu – Kelime Oyunları merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 27330cd30b8fbedd4d33cf8cb781cd3bb8376dd8
+  kelime_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/kelime-motoru
+      ref: 457adcb836704aafea8028f531ac28503f59f1f5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
